@@ -1,7 +1,12 @@
-
+#https://192.168.86.97:8006/api2/json
 variable "pm_api_url" {}
+#terraform@pve!terraform2
+#root@pam!terraform3
 variable "pm_user" {}
-variable "pm_secret" {default = "27f87aa0-40de-4db4-8ae5-9c8f93e4f1c5" }
+#27f87aa0-40de-4db4-8ae5-9c8f93e4f1c5
+#44cbdcbc-de91-4605-8c75-db93cc7c9545
+variable "pm_password" {}
+#pve
 variable "target_node" {}
 
 variable "storage_name" {}

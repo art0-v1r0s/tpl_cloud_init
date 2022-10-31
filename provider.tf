@@ -2,7 +2,7 @@ terraform {
   required_providers {
     proxmox = {
       source = "telmate/proxmox"
-      version = "2.6.7"
+      version = "2.9.3"
     }
   }
 }
@@ -10,8 +10,9 @@ terraform {
 
 
 provider "proxmox" {
-    pm_api_url      = var.pm_api_url
-    pm_user         = var.pm_user
-    pm_password     = var.pm_secret
+    pm_api_url      = ""
+    pm_user         = ""
+    pm_password     = ""
+
     pm_tls_insecure = "true"
 }

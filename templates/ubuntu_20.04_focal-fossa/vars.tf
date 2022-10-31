@@ -5,8 +5,8 @@ provisioning_script_path = "templates/ubuntu_20.04_focal-fossa/provision.sh.tpl"
 
 
 # pve connection
-pm_api_url = "https://192.168.86.97:8006/api2/json"
-pm_user = "terraform@pve!terraform2"
+#pm_api_url = "https://192.168.86.97:8006/api2/json"
+#pm_user = "terraform@pve!terraform2"
 target_node = "pve"
 
 # vm resources
@@ -31,7 +31,7 @@ searchdomain = "mydomain.test"
 bridge = "vmbr0"
 
 # vm provisioning settings
-timezone = "Europe/Brussels"
+timezone = "Europe/Paris"
 
 # vm's to be created (All lists must have equal lenghts!)
 vmids = [ 10021, 10022 ]
