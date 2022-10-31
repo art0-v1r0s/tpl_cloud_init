@@ -5,9 +5,9 @@ provisioning_script_path = "templates/ubuntu_20.04_focal-fossa/provision.sh.tpl"
 
 
 # pve connection
-pm_api_url = "https://<proxmox-server>:8006/api2/json"
-pm_user = "proxmox-user"
-target_node = "proxmox-node"
+pm_api_url = "https://192.168.86.97:8006/api2/json"
+pm_user = "terraform@pve!terraform2"
+target_node = "pve"
 
 # vm resources
 storage_name = "local"
@@ -19,7 +19,7 @@ balloon = 512
 
 # vm user
 user = "tfuser"
-password = "Change-me-asap!"
+password = "azerty123456"
 ssh_key_public = "~/.ssh/tf-vm.pub"
 ssh_key_private = "~/.ssh/tf-vm"
 

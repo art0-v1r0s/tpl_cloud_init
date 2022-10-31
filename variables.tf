@@ -1,6 +1,7 @@
 
 variable "pm_api_url" {}
 variable "pm_user" {}
+variable "pm_secret" {default = "27f87aa0-40de-4db4-8ae5-9c8f93e4f1c5" }
 variable "target_node" {}
 
 variable "storage_name" {}
@@ -15,7 +16,7 @@ variable "password" {}
 variable "ssh_key_public" {}
 variable "ssh_key_private" {}
 
-variable "timezone" { default = "Europe/Brussels" }
+variable "timezone" { default = "Europe/Paris" }
 
 variable "gateway" {}
 variable "nameserver" {}
